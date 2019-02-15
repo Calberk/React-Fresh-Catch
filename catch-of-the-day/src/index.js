@@ -1,9 +1,6 @@
 import React from 'react';
 import {render} from 'react-dom';
-import StorePicker from './components/storePicker.js'
-import App from './components/app.js'
-
+import Router from './components/router';
 import "./css/style.css";
 
-
-render(<App/>, document.querySelector('#main'));
+render(<Router/>, document.querySelector('#main'));
